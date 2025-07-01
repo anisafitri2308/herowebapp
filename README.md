@@ -20,18 +20,19 @@ Aplikasi web ini menampilkan daftar hero Mobile Legends dengan fitur *CRUD (Crea
 | Komponen        | Teknologi               |
 |-----------------|-------------------------|
 | *Backend*     | Java                      |
-| *Frontend*    | Thymeleaf                 |
 | *Database*    | MySQL                     |
 | *Tools*       | IntelliJ IDEA, MySQL Workbench, Git |
 
 ## 📋 Struktur Database
 Tabel heroes:
 ```sql
-CREATE TABLE heroes (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    role VARCHAR(50) NOT NULL,
-    lane VARCHAR(50),
-    difficulty VARCHAR(50),
-    release_year INT
+CREATE DATABASE tm_hero;
+
+USE tm_hero;
+
+CREATE TABLE hero (
+    id_hero INT AUTO_INCREMENT PRIMARY KEY,
+    nama_hero VARCHAR(100) NOT NULL,
+    kategori ENUM('MAGE', 'ASSASIN', 'FIGHTER', 'TANK', 'MARKSMAN', 'SUPPORT') NOT NULL,
+    gender ENUM('MALE', 'FEMALE') NOT NULL
 );
