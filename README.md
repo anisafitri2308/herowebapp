@@ -1,12 +1,12 @@
 # Mobile Legends Hero List Web App
 by Anisa Fitriyani (NIM: SSI202303557)
 
-![Mobile Legends Logo](https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Mobile_Legends_Bang_Bang_Logo.png/revision/latest?cb=20210831080814)
+![Mobile Legends Logo]([https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Mobile_Legends_Bang_Bang_Logo.png/revision/latest?cb=20210831080814](https://wallpaperaccess.com/full/4597740.png))
 
 ## 📌 Deskripsi Proyek
 Aplikasi web ini menampilkan daftar hero Mobile Legends dengan fitur *CRUD (Create, Read, Update, Delete)*. Dibangun menggunakan:  
 - *IntelliJ IDEA* (IDE Pengembangan)  
-- *Java + Spring Boot* (Backend)  
+- *Java* (Backend)  
 - *MySQL Workbench* (Database)  
 - *Thymeleaf/HTML/CSS/JS* (Frontend)  
 
@@ -14,15 +14,14 @@ Aplikasi web ini menampilkan daftar hero Mobile Legends dengan fitur *CRUD (Crea
 ✔ Menampilkan daftar hero MLBB  
 ✔ Menambah hero baru  
 ✔ Mengedit informasi hero  
-✔ Menghapus hero  
-✔ Pencarian & filter hero  
+✔ Menghapus hero    
 
 ## 🛠 Teknologi yang Digunakan
 | Komponen        | Teknologi               |
 |-----------------|-------------------------|
-| *Backend*     | Java, Spring Boot       |
-| *Frontend*    | Thymeleaf, Bootstrap    |
-| *Database*    | MySQL                   |
+| *Backend*     | Java                      |
+| *Frontend*    | Thymeleaf                 |
+| *Database*    | MySQL                     |
 | *Tools*       | IntelliJ IDEA, MySQL Workbench, Git |
 
 ## 📋 Struktur Database
